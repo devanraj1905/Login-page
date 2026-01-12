@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-image: url("/image/1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+
+
+}
+
+.container {
+    border: 2px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    
+    border-radius: 30px;
+    align-content: center;
+    position: relative;
+
+}
+
+.name,
+.pass {
+    display: block;
+    font-size: x-large;
+    padding: 10px 15px;
+    
+}
+
+.name-box,
+.pass-box {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    background: transparent;
+    backdrop-filter: blur(1px);
+    border-radius: 30px;
+    margin: 2px;
+    margin-left: 15px;
+    
+}
+
+i {
+    position: absolute;
+    right: 10%;
+    padding-top: 15px;
+}
+
+.check-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.submit>button {
+    display: flex;
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+
+    background: transparent;
+    align-items: center;
+    font-size: x-large;
+    justify-content: center;
+
+}
+
+.submit {
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+}
